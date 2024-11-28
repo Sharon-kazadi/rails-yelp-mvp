@@ -1,6 +1,6 @@
-<div class="container">
-<h1>Edit <%= @restaurant.name %></h1>
 
+<h1>Edit <%= @restaurant.name %></h1>
+<div class="edit-form">
 <%= simple_form_for(@restaurant) do |f| %>
   <%= f.input :name %>
   <%= f.input :address %>
